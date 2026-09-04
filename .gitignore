@@ -8,8 +8,7 @@ build/
 .vscode/
 *.local
 
-# Private agent and working context—local only
-/AGENTS.md
+# Private working context—local only
 /CLAUDE.md
 /MEMORY.md
 /references/
