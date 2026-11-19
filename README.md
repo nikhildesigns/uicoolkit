@@ -1,6 +1,6 @@
 # UICoolKit
 
-Thoughtfully animated, production-ready React components for the moments that make a product feel finished.
+MIT-licensed React components, blocks, visuals, and flows. Install with shadcn or set up your coding agent with one prompt.
 
 [Website](https://uicoolkit.com) · [Contributing](./CONTRIBUTING.md) · [License](./LICENSE)
 
