@@ -1,0 +1,49 @@
+# UICoolKit
+
+Free, MIT-licensed React source. Install released items without an account.
+
+Read https://uicoolkit.com/catalog.json to discover current items; never infer availability from this skill or a stale item name.
+Read the selected item's documentationUrl and use its immutable manifestUrl. Check compatibility and prerequisites before installing.
+Registry catalog: https://uicoolkit.com/r/registry.json
+Installation: https://uicoolkit.com/docs/installation.md
+Skill: https://uicoolkit.com/skills/uicoolkit/SKILL.md
+Agent setup: https://uicoolkit.com/docs/agents
+Updates: inspect historyUrl and locally customized files; never overwrite without the consumer's explicit decision.
+
+- [Alignment Control](https://uicoolkit.com/components/alignment-control/0.2.0.md): Align, distribute and position the selected layers, as a button row or a 3×3 grid.
+- [Animation Timeline](https://uicoolkit.com/components/animation-timeline/0.1.0.md): Arrange clips and keyframes on tracks, with a ruler and playhead.
+- [Browser Bar](https://uicoolkit.com/components/browser-bar/0.1.1.md): Back, forward, reload and an address field that adapt to the space they have.
+- [Burning Text](https://uicoolkit.com/components/burning-text/0.1.0.md): A word with flames rising from its letter strokes.
+- [Canvas Toolbar](https://uicoolkit.com/components/canvas-toolbar/0.1.0.md): A design tool's toolbar with Pointer and Hand tools, custom tools, actions and shortcut tooltips.
+- [Canvas Viewport](https://uicoolkit.com/components/canvas-viewport/0.1.1.md): An infinite canvas with pan, zoom at the pointer, zoom to fit and selection outlines.
+- [Color Picker](https://uicoolkit.com/components/color-picker/0.2.0.md): A fill-style colour row whose swatch opens a picker with sliders, formats and swatches.
+- [Command Menu](https://uicoolkit.com/components/command-menu/0.1.0.md): Find screens and run workspace actions from one searchable palette.
+- [Context Menu](https://uicoolkit.com/components/context-menu/0.1.2.md): Right-click actions for anything, with a visible button that opens the same menu.
+- [Contour Field](https://uicoolkit.com/components/contour-field/0.1.0.md): Drifting topographic lines that rise around the pointer.
+- [Daily Task List](https://uicoolkit.com/components/daily-task-list/0.1.4.md): A day's tasks with capture, editing, ordering, completion and undo already wired together.
+- [Easing Curve Editor](https://uicoolkit.com/components/easing-curve-editor/0.1.0.md): Shape a cubic Bézier easing with two handles, presets and exact fields.
+- [Ember Glow](https://uicoolkit.com/components/ember-glow/0.1.0.md): A slow drift of light and grain along the bottom edge of a surface.
+- [Image Picker](https://uicoolkit.com/components/image-picker/0.2.0.md): Choose, drop, paste or link an image from a compact row, with upload progress and retry.
+- [Inline Edit](https://uicoolkit.com/components/inline-edit/0.1.3.md): Rename something in place, with explicit save and cancel.
+- [Inspector Field](https://uicoolkit.com/components/inspector-field/0.2.0.md): One property row for a design tool: a label and a right-aligned control.
+- [Layers Panel](https://uicoolkit.com/components/layers-panel/0.2.0.md): A design tool's layer tree: nested frames with search, selection, reorder and toggles.
+- [Like Burst](https://uicoolkit.com/components/like-burst/0.1.0.md): A like or favorite toggle with an optional rolling count.
+- [Motion Inspector](https://uicoolkit.com/components/motion-inspector/0.1.0.md): Edit how a selected item animates, as an easing curve or a spring.
+- [Notification Stack](https://uicoolkit.com/components/notification-stack/0.1.0.md): A layered deck of notifications that fans out into a spaced list.
+- [Number Field](https://uicoolkit.com/components/number-field/0.2.0.md): Type, step or drag a number, as an input or a slider.
+- [Number Ticker](https://uicoolkit.com/components/number-ticker/0.1.0.md): Digits that roll into place as a number changes.
+- [Onboarding Steps](https://uicoolkit.com/components/onboarding-steps/0.1.0.md): Set up a workspace with an optional teammate invitation.
+- [Orbit Field](https://uicoolkit.com/components/orbit-field/0.1.0.md): Concentric rings of dots or icons orbit a customizable center.
+- [Plan Switcher](https://uicoolkit.com/components/plan-switcher/0.1.0.md): Compare plan features and monthly or yearly billing.
+- [Playback Controls](https://uicoolkit.com/components/playback-controls/0.1.0.md): Play, rewind, seek and set the volume of anything your app plays.
+- [Property Inspector](https://uicoolkit.com/components/property-inspector/0.2.0.md): Grouped properties for whatever is selected on a design canvas.
+- [Pulse Grid](https://uicoolkit.com/components/pulse-grid/0.1.0.md): A field of dots that carries a double ripple across a surface.
+- [Resizable Panels](https://uicoolkit.com/components/resizable-panels/0.1.1.md): Panels with exact pixel sizes, limits, keyboard resizing and Escape to cancel a drag.
+- [Resize Handles](https://uicoolkit.com/components/resize-handles/0.1.0.md): Handles on a selected object that report live sizes and commit once per resize.
+- [Screen Frame](https://uicoolkit.com/components/screen-frame/0.1.2.md): One app screen on a design canvas: name, status, preview and actions.
+- [Sortable List](https://uicoolkit.com/components/sortable-list/0.1.3.md): Reorder your app's items by dragging or with move buttons, and recover when a save fails.
+- [Split Number Field](https://uicoolkit.com/components/split-number-field/0.2.0.md): One number that splits into linked sides or corners, such as padding or radius.
+- [Stateful Button](https://uicoolkit.com/components/stateful-button/0.1.0.md): A button that follows an action through loading, confirmation, and retry.
+- [Upload Dropzone](https://uicoolkit.com/components/upload-dropzone/0.1.0.md): Select or drop files and track each upload through completion or retry.
+- [Version Comparison](https://uicoolkit.com/components/version-comparison/0.1.0.md): Pick any two design versions, compare them and choose one.
+- [XY Pad](https://uicoolkit.com/components/xy-pad/0.1.0.md): Set two numbers with one draggable point, with a field for each axis.

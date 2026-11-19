@@ -1,0 +1,28 @@
+{
+  "name": "sortable-list",
+  "latest": "0.1.3",
+  "releases": [
+    {
+      "version": "0.1.3",
+      "access": "free",
+      "license": "MIT",
+      "status": "experimental",
+      "releasedAt": "2026-11-19",
+      "changelog": "Use a softer focus treatment on keyboard move controls.",
+      "change": "fix",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "notices": [
+        "MIT UICoolKit source. Base UI, Motion and host utilities retain their respective package licenses."
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/sortable-list/0.1.3.json",
+      "historyUrl": "https://uicoolkit.com/r/sortable-list/history.json",
+      "documentationFile": "@ui/sortable-list.md",
+      "documentationUrl": "https://uicoolkit.com/components/sortable-list/0.1.3.md"
+    }
+  ]
+}

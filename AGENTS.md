@@ -4,7 +4,7 @@ UICoolKit is a source-delivered React UI library for thoughtfully animated produ
 
 ## Current State
 
-The public codebase has not been scaffolded. Do not invent setup commands, registry routes, install slugs or directory conventions before they exist in the repository. Prefer an issue or a focused documentation correction until the initial source release lands.
+This repository contains the current Free source under `source/<slug>/`, public manifests under `r/` and the catalog at `catalog.json`. Use the catalog to find installable items and versioned guides.
 
 ## Scope
 
@@ -56,7 +56,7 @@ Prefer shared motion and design tokens once they exist. Avoid one-off animation 
 
 ## Verification
 
-Use only commands documented by the repository's package scripts and contribution guide. Once tooling exists, run the relevant type, lint, test and registry-validation checks before proposing a commit. Report visual or manual verification separately from automated checks.
+Verify source edits in a supported React consumer and follow the contribution guide. Report visual or manual verification separately from automated checks.
 
 Before committing, inspect every staged path and scan for private content. The public diff must contain only files intended for customers and contributors.
 

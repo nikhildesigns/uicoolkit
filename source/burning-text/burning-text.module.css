@@ -1,0 +1,56 @@
+.root {
+  position: relative;
+  isolation: isolate;
+  display: inline-block;
+  white-space: pre;
+}
+.word { display: inline-block; }
+.canvas, .embers, .glow { position: absolute; pointer-events: none; }
+.canvas {
+  left: -.3em;
+  top: -1em;
+  width: calc(100% + .6em);
+  height: calc(100% + 1.15em);
+}
+.root:has(.canvas[data-ready]) .word { color: transparent; }
+.word::selection { background: Highlight; color: HighlightText; }
+.glow {
+  z-index: -1;
+  inset: -8% -18%;
+  background: radial-gradient(closest-side, color-mix(in srgb, var(--flame) 20%, transparent), transparent);
+  filter: blur(.25em);
+}
+.embers { inset: 0; }
+.spark {
+  position: absolute;
+  bottom: 30%;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--flame) 70%, #ffde94);
+  box-shadow: 0 0 5px var(--flame);
+  opacity: 0;
+  animation: rise calc(var(--dur) / var(--burn-speed)) ease-out calc(var(--delay) / var(--burn-speed)) infinite;
+}
+.root[data-flame="candle"] .glow { opacity: .45; }
+.root[data-flame="candle"] .spark { display: none; }
+.root[data-flame="candle"] .spark:nth-child(4) {
+  display: block;
+  width: 2px;
+  height: 2px;
+  animation-duration: calc(5s / var(--burn-speed));
+  --lift: -.65em;
+}
+@keyframes rise {
+  0% { opacity: 0; transform: translate(0, 0) scale(1); }
+  12% { opacity: 1; }
+  100% { opacity: 0; transform: translate(var(--drift), var(--lift, -1.6em)) scale(.2); }
+}
+.root[data-still] .embers { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  .embers { display: none; }
+}
+@media (forced-colors: active), print {
+  .root:has(.canvas[data-ready]) .word { color: CanvasText; }
+  .canvas, .embers, .glow { display: none; }
+}

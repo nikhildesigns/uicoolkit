@@ -1,0 +1,28 @@
+{
+  "name": "canvas-viewport",
+  "latest": "0.1.1",
+  "releases": [
+    {
+      "version": "0.1.1",
+      "access": "free",
+      "license": "MIT",
+      "status": "experimental",
+      "releasedAt": "2026-11-19",
+      "changelog": "Keep one-finger drags stationary in Pointer mode. Hand still pans, and two-finger pinch keeps working when capture moves from a child to the viewport.",
+      "change": "fix",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "notices": [
+        "MIT UICoolKit source. Base UI, Motion and host utilities retain their respective package licenses."
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/canvas-viewport/0.1.1.json",
+      "historyUrl": "https://uicoolkit.com/r/canvas-viewport/history.json",
+      "documentationFile": "@ui/canvas-viewport.md",
+      "documentationUrl": "https://uicoolkit.com/components/canvas-viewport/0.1.1.md"
+    }
+  ]
+}

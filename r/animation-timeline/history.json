@@ -1,0 +1,28 @@
+{
+  "name": "animation-timeline",
+  "latest": "0.1.0",
+  "releases": [
+    {
+      "version": "0.1.0",
+      "access": "free",
+      "license": "MIT",
+      "status": "experimental",
+      "releasedAt": "2026-11-19",
+      "changelog": "Initial experimental source release: composable parts, app-owned state, customization and accessible interaction.",
+      "change": "initial",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "notices": [
+        "MIT UICoolKit source. Base UI, Motion and host utilities retain their respective package licenses."
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/animation-timeline/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/animation-timeline/history.json",
+      "documentationFile": "@ui/animation-timeline.md",
+      "documentationUrl": "https://uicoolkit.com/components/animation-timeline/0.1.0.md"
+    }
+  ]
+}

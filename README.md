@@ -4,7 +4,7 @@ Thoughtfully animated, production-ready React components for the moments that ma
 
 [Website](https://uicoolkit.com) · [Contributing](./CONTRIBUTING.md) · [License](./LICENSE)
 
-> UICoolKit is in early development. The public component catalog and installation endpoints have not launched yet.
+Browse the [Library](https://uicoolkit.com/components) or explore the [Design Tools collection](https://uicoolkit.com/design-tools). The Free library is MIT licensed.
 
 ## What UICoolKit Is
 
@@ -26,28 +26,28 @@ Every applicable component is expected to provide:
 
 ## Compatibility
 
-The planned compatibility target is:
+The library supports:
 
 - React 18 and 19.
 - Next.js and Vite applications.
 - Tailwind CSS 4.
 - Source installation through a shadcn-compatible registry.
 
-Exact installation commands will be published with the first component release.
+See [Installation](https://uicoolkit.com/docs/installation) and each item's versioned guide for prerequisites. For example, add Inline Edit to an existing shadcn project:
 
-## Free and Pro
+```sh
+npx shadcn@latest add https://uicoolkit.com/r/inline-edit/0.1.3.json
+```
 
-This repository will contain the approved free component collection under the MIT License. UICoolKit Pro will provide larger patterns and complete product flows through a separately licensed source registry.
-
-No paid component source, private registry implementation or internal project material belongs in this repository.
+Read the current [catalog](./catalog.json) for exact versions, docs and manifest links. Browse `source/<slug>/` for the current source of an item.
 
 ## For Coding Agents
 
-Agents working in this repository should read [AGENTS.md](./AGENTS.md) before changing files. Public agent-readable registry endpoints and installation guidance will be documented when they are available.
+Open the project you want to use and paste the [UICoolKit setup prompt](https://uicoolkit.com/docs/agents) into Codex, Claude Code, Cursor or another coding agent. The skill is saved in that project for future requests.
 
 ## Contributing
 
-UICoolKit is not accepting component implementations until the initial project scaffold and validation commands are published. Ideas, bug reports and documentation improvements are welcome through GitHub issues.
+Ideas, bug reports and documentation improvements are welcome through GitHub issues. Open an issue to discuss a component contribution.
 
 Read [CONTRIBUTING.md](./CONTRIBUTING.md) before preparing a change.
 

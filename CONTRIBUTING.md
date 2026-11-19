@@ -2,7 +2,7 @@
 
 Thank you for helping make UICoolKit more useful, reliable and pleasant to use.
 
-UICoolKit is currently in early development. Until the initial scaffold and validation commands are published, please open an issue before preparing a component or code contribution.
+Open an issue before preparing a component or code contribution.
 
 ## Before Starting
 
@@ -32,7 +32,7 @@ This repository is a curated public distribution of UICoolKit. Maintainers may i
 
 ## Component Contribution Contract
 
-Once component contributions open, a new component should arrive as one coherent change containing:
+A component contribution should arrive as one coherent change containing:
 
 - Component source and any explicitly required public dependencies.
 - Public registry metadata.
@@ -44,7 +44,7 @@ Every applicable component should cover keyboard and focus behavior, responsive 
 
 ## Project Checks
 
-The application has not been scaffolded, so there are no supported local setup or validation commands yet. This section will be updated alongside the first runnable source release. Do not introduce an undocumented package manager or parallel build workflow in a pull request.
+Verify changes in a supported React app. Use the [installation guide](https://uicoolkit.com/docs/installation) to set up a consumer, then check its build and the relevant interaction states.
 
 ## Pull Requests
 

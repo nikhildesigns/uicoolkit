@@ -1,0 +1,1923 @@
+{
+  "schemaVersion": 1,
+  "availability": "released",
+  "origin": "https://uicoolkit.com",
+  "items": [
+    {
+      "slug": "alignment-control",
+      "title": "Alignment Control",
+      "summary": "Align, distribute and position the selected layers, as a button row or a 3×3 grid.",
+      "category": "components",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "row",
+          "label": "Row",
+          "previewSlug": "alignment-control",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "id": "grid",
+          "label": "Grid",
+          "previewSlug": "alignment-control-grid",
+          "states": [
+            "mixed",
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "alignment",
+        "layout",
+        "inspector"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/alignment-control/0.2.0.json",
+      "availability": "released",
+      "version": "0.2.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/alignment-control-geometry.ts",
+        "@ui/alignment-control-grid.tsx",
+        "@ui/alignment-control-state.tsx",
+        "@ui/alignment-control-toolbar.tsx",
+        "@ui/alignment-control.tsx",
+        "@ui/alignment-control.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/alignment-control/0.2.0.json",
+      "historyUrl": "https://uicoolkit.com/r/alignment-control/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/alignment-control/0.2.0.md",
+      "documentationFile": "@ui/alignment-control.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/alignment-control",
+      "previewUrl": "https://uicoolkit.com/components/alignment-control"
+    },
+    {
+      "slug": "animation-timeline",
+      "title": "Animation Timeline",
+      "summary": "Arrange clips and keyframes on tracks, with a ruler and playhead.",
+      "category": "blocks",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "animation-timeline",
+          "states": [
+            "empty",
+            "locked",
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "editing",
+        "selection",
+        "keyboard"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/animation-timeline/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/animation-timeline-drag.ts",
+        "@ui/animation-timeline-items.tsx",
+        "@ui/animation-timeline-math.ts",
+        "@ui/animation-timeline-root.tsx",
+        "@ui/animation-timeline-state.tsx",
+        "@ui/animation-timeline-toolbar.tsx",
+        "@ui/animation-timeline-tracks.tsx",
+        "@ui/animation-timeline-view.ts",
+        "@ui/animation-timeline.tsx",
+        "@ui/animation-timeline.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [
+        "https://uicoolkit.com/r/context-menu/0.1.2.json",
+        "https://uicoolkit.com/r/inspector-field/0.2.0.json",
+        "https://uicoolkit.com/r/playback-controls/0.1.0.json"
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/animation-timeline/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/animation-timeline/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/animation-timeline/0.1.0.md",
+      "documentationFile": "@ui/animation-timeline.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/animation-timeline",
+      "previewUrl": "https://uicoolkit.com/components/animation-timeline"
+    },
+    {
+      "slug": "browser-bar",
+      "title": "Browser Bar",
+      "summary": "Back, forward, reload and an address field that adapt to the space they have.",
+      "category": "components",
+      "topic": "General UI",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "browser-bar",
+          "states": [
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "actions",
+        "forms",
+        "keyboard"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/browser-bar/0.1.1.json",
+      "availability": "released",
+      "version": "0.1.1",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/browser-bar-parts.tsx",
+        "@ui/browser-bar-root.tsx",
+        "@ui/browser-bar.tsx",
+        "@ui/browser-bar.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/browser-bar/0.1.1.json",
+      "historyUrl": "https://uicoolkit.com/r/browser-bar/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/browser-bar/0.1.1.md",
+      "documentationFile": "@ui/browser-bar.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/browser-bar",
+      "previewUrl": "https://uicoolkit.com/components/browser-bar"
+    },
+    {
+      "slug": "burning-text",
+      "title": "Burning Text",
+      "summary": "A word with flames rising from its letter strokes.",
+      "category": "visuals",
+      "topic": "Visuals",
+      "variants": [],
+      "tags": [
+        "text",
+        "shader",
+        "hero",
+        "fire"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/burning-text/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/burning-text-gl.ts",
+        "@ui/burning-text.module.css",
+        "@ui/burning-text.tsx",
+        "@ui/flame-bed.ts",
+        "@ui/flame-canvas.tsx",
+        "@ui/flame-renderer.ts",
+        "@ui/flame-shader.ts",
+        "@ui/burning-text.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/burning-text/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/burning-text/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/burning-text/0.1.0.md",
+      "documentationFile": "@ui/burning-text.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/burning-text",
+      "previewUrl": "https://uicoolkit.com/components/burning-text"
+    },
+    {
+      "slug": "canvas-toolbar",
+      "title": "Canvas Toolbar",
+      "summary": "A design tool's toolbar with Pointer and Hand tools, custom tools, actions and shortcut tooltips.",
+      "category": "components",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "canvas-toolbar",
+          "states": [
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "actions",
+        "editing",
+        "keyboard"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/canvas-toolbar/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/canvas-toolbar-items.tsx",
+        "@ui/canvas-toolbar-root.tsx",
+        "@ui/canvas-toolbar-state.tsx",
+        "@ui/canvas-toolbar.tsx",
+        "@ui/canvas-toolbar.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/canvas-toolbar/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/canvas-toolbar/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/canvas-toolbar/0.1.0.md",
+      "documentationFile": "@ui/canvas-toolbar.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/canvas-toolbar",
+      "previewUrl": "https://uicoolkit.com/components/canvas-toolbar"
+    },
+    {
+      "slug": "canvas-viewport",
+      "title": "Canvas Viewport",
+      "summary": "An infinite canvas with pan, zoom at the pointer, zoom to fit and selection outlines.",
+      "category": "components",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "canvas-viewport",
+          "states": [
+            "empty",
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "editing",
+        "selection",
+        "keyboard"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/canvas-viewport/0.1.1.json",
+      "availability": "released",
+      "version": "0.1.1",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/canvas-viewport-gestures.ts",
+        "@ui/canvas-viewport-math.ts",
+        "@ui/canvas-viewport-parts.tsx",
+        "@ui/canvas-viewport-root.tsx",
+        "@ui/canvas-viewport-state.tsx",
+        "@ui/canvas-viewport.tsx",
+        "@ui/canvas-viewport.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/canvas-viewport/0.1.1.json",
+      "historyUrl": "https://uicoolkit.com/r/canvas-viewport/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/canvas-viewport/0.1.1.md",
+      "documentationFile": "@ui/canvas-viewport.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/canvas-viewport",
+      "previewUrl": "https://uicoolkit.com/components/canvas-viewport"
+    },
+    {
+      "slug": "color-picker",
+      "title": "Color Picker",
+      "summary": "A fill-style colour row whose swatch opens a picker with sliders, formats and swatches.",
+      "category": "components",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "color-picker",
+          "states": [
+            "mixed",
+            "invalid",
+            "read-only",
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "color",
+        "editing",
+        "inspector"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/color-picker/0.2.0.json",
+      "availability": "released",
+      "version": "0.2.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/color-picker-color.ts",
+        "@ui/color-picker-content.tsx",
+        "@ui/color-picker-inputs.tsx",
+        "@ui/color-picker-root.tsx",
+        "@ui/color-picker-state.tsx",
+        "@ui/color-picker.tsx",
+        "@ui/color-picker.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/color-picker/0.2.0.json",
+      "historyUrl": "https://uicoolkit.com/r/color-picker/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/color-picker/0.2.0.md",
+      "documentationFile": "@ui/color-picker.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/color-picker",
+      "previewUrl": "https://uicoolkit.com/components/color-picker"
+    },
+    {
+      "slug": "command-menu",
+      "title": "Command Menu",
+      "summary": "Find screens and run workspace actions from one searchable palette.",
+      "category": "components",
+      "topic": "General UI",
+      "variants": [],
+      "tags": [
+        "navigation",
+        "search",
+        "keyboard"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/command-menu/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/command-menu.tsx",
+        "@ui/command-results.tsx",
+        "@ui/command-search.ts",
+        "@ui/command-menu.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0",
+        "lucide-react@1.61.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/command-menu/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/command-menu/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/command-menu/0.1.0.md",
+      "documentationFile": "@ui/command-menu.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/command-menu",
+      "previewUrl": "https://uicoolkit.com/components/command-menu"
+    },
+    {
+      "slug": "context-menu",
+      "title": "Context Menu",
+      "summary": "Right-click actions for anything, with a visible button that opens the same menu.",
+      "category": "components",
+      "topic": "General UI",
+      "variants": [],
+      "tags": [
+        "menus",
+        "actions",
+        "keyboard"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/context-menu/0.1.2.json",
+      "availability": "released",
+      "version": "0.1.2",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/context-menu-items.tsx",
+        "@ui/context-menu-popup.tsx",
+        "@ui/context-menu-responsive.tsx",
+        "@ui/context-menu-state.tsx",
+        "@ui/context-menu-triggers.tsx",
+        "@ui/context-menu.tsx",
+        "@ui/context-menu.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/context-menu/0.1.2.json",
+      "historyUrl": "https://uicoolkit.com/r/context-menu/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/context-menu/0.1.2.md",
+      "documentationFile": "@ui/context-menu.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/context-menu",
+      "previewUrl": "https://uicoolkit.com/components/context-menu"
+    },
+    {
+      "slug": "contour-field",
+      "title": "Contour Field",
+      "summary": "Drifting topographic lines that rise around the pointer.",
+      "category": "visuals",
+      "topic": "Visuals",
+      "variants": [],
+      "tags": [
+        "backgrounds",
+        "shader",
+        "pattern",
+        "interactive"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/contour-field/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/contour-field-gl.ts",
+        "@ui/contour-field.tsx",
+        "@ui/contour-renderer.ts",
+        "@ui/contour-runtime.ts",
+        "@ui/contour-shader.ts",
+        "@ui/contour-field.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/contour-field/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/contour-field/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/contour-field/0.1.0.md",
+      "documentationFile": "@ui/contour-field.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/contour-field",
+      "previewUrl": "https://uicoolkit.com/components/contour-field"
+    },
+    {
+      "slug": "daily-task-list",
+      "title": "Daily Task List",
+      "summary": "A day's tasks with capture, editing, ordering, completion and undo already wired together.",
+      "category": "blocks",
+      "topic": "Productivity",
+      "variants": [],
+      "tags": [
+        "tasks",
+        "lists",
+        "planning",
+        "editing"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/daily-task-list/0.1.4.json",
+      "availability": "released",
+      "version": "0.1.4",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/daily-task-list-actions.tsx",
+        "@ui/daily-task-list-capture.tsx",
+        "@ui/daily-task-list-feedback.tsx",
+        "@ui/daily-task-list-root.tsx",
+        "@ui/daily-task-list-sections.tsx",
+        "@ui/daily-task-list-state.tsx",
+        "@ui/daily-task-list-title.tsx",
+        "@ui/daily-task-list.tsx",
+        "@ui/daily-task-list.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0",
+        "motion@14.6.0"
+      ],
+      "registryDependencies": [
+        "https://uicoolkit.com/r/inline-edit/0.1.3.json",
+        "https://uicoolkit.com/r/context-menu/0.1.2.json",
+        "https://uicoolkit.com/r/sortable-list/0.1.3.json"
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/daily-task-list/0.1.4.json",
+      "historyUrl": "https://uicoolkit.com/r/daily-task-list/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/daily-task-list/0.1.4.md",
+      "documentationFile": "@ui/daily-task-list.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/daily-task-list",
+      "previewUrl": "https://uicoolkit.com/components/daily-task-list"
+    },
+    {
+      "slug": "easing-curve-editor",
+      "title": "Easing Curve Editor",
+      "summary": "Shape a cubic Bézier easing with two handles, presets and exact fields.",
+      "category": "components",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "easing-curve-editor",
+          "states": [
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "editing",
+        "inspector",
+        "keyboard"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/easing-curve-editor/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/easing-curve-editor-controls.tsx",
+        "@ui/easing-curve-editor-drag.ts",
+        "@ui/easing-curve-editor-math.ts",
+        "@ui/easing-curve-editor-parts.tsx",
+        "@ui/easing-curve-editor-root.tsx",
+        "@ui/easing-curve-editor-state.tsx",
+        "@ui/easing-curve-editor.tsx",
+        "@ui/easing-curve-editor.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [
+        "https://uicoolkit.com/r/inspector-field/0.2.0.json",
+        "https://uicoolkit.com/r/number-field/0.2.0.json"
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/easing-curve-editor/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/easing-curve-editor/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/easing-curve-editor/0.1.0.md",
+      "documentationFile": "@ui/easing-curve-editor.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/easing-curve-editor",
+      "previewUrl": "https://uicoolkit.com/components/easing-curve-editor"
+    },
+    {
+      "slug": "ember-glow",
+      "title": "Ember Glow",
+      "summary": "A slow drift of light and grain along the bottom edge of a surface.",
+      "category": "visuals",
+      "topic": "Visuals",
+      "variants": [],
+      "tags": [
+        "backgrounds",
+        "shader",
+        "hero",
+        "gradient"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/ember-glow/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/ember-glow-gl.ts",
+        "@ui/ember-glow.tsx",
+        "@ui/ember-renderer.ts",
+        "@ui/ember-runtime.ts",
+        "@ui/ember-shader.ts",
+        "@ui/ember-glow.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/ember-glow/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/ember-glow/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/ember-glow/0.1.0.md",
+      "documentationFile": "@ui/ember-glow.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/ember-glow",
+      "previewUrl": "https://uicoolkit.com/components/ember-glow"
+    },
+    {
+      "slug": "image-picker",
+      "title": "Image Picker",
+      "summary": "Choose, drop, paste or link an image from a compact row, with upload progress and retry.",
+      "category": "components",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "image-picker",
+          "states": [
+            "empty",
+            "mixed",
+            "read-only",
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "image",
+        "upload",
+        "editing",
+        "inspector"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/image-picker/0.2.0.json",
+      "availability": "released",
+      "version": "0.2.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/image-picker-parts.tsx",
+        "@ui/image-picker-root.tsx",
+        "@ui/image-picker-state.tsx",
+        "@ui/image-picker.tsx",
+        "@ui/image-picker.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/image-picker/0.2.0.json",
+      "historyUrl": "https://uicoolkit.com/r/image-picker/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/image-picker/0.2.0.md",
+      "documentationFile": "@ui/image-picker.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/image-picker",
+      "previewUrl": "https://uicoolkit.com/components/image-picker"
+    },
+    {
+      "slug": "inline-edit",
+      "title": "Inline Edit",
+      "summary": "Rename something in place, with explicit save and cancel.",
+      "category": "components",
+      "topic": "General UI",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "inline-edit",
+          "states": [
+            "editing",
+            "invalid",
+            "pending",
+            "error",
+            "conflict",
+            "disabled"
+          ]
+        },
+        {
+          "id": "ghost",
+          "label": "Ghost",
+          "previewSlug": "inline-edit-ghost",
+          "states": [
+            "editing",
+            "invalid",
+            "pending",
+            "error",
+            "conflict",
+            "disabled"
+          ]
+        },
+        {
+          "id": "app-controlled",
+          "label": "Edit from a button",
+          "previewSlug": "inline-edit-app-controlled",
+          "states": []
+        }
+      ],
+      "tags": [
+        "forms",
+        "editing",
+        "rename"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/inline-edit/0.1.3.json",
+      "availability": "released",
+      "version": "0.1.3",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/inline-edit-feedback.tsx",
+        "@ui/inline-edit-field.tsx",
+        "@ui/inline-edit-root.tsx",
+        "@ui/inline-edit-state.tsx",
+        "@ui/inline-edit.tsx",
+        "@ui/inline-edit.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/inline-edit/0.1.3.json",
+      "historyUrl": "https://uicoolkit.com/r/inline-edit/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/inline-edit/0.1.3.md",
+      "documentationFile": "@ui/inline-edit.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/inline-edit",
+      "previewUrl": "https://uicoolkit.com/components/inline-edit"
+    },
+    {
+      "slug": "inspector-field",
+      "title": "Inspector Field",
+      "summary": "One property row for a design tool: a label and a right-aligned control.",
+      "category": "components",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "inspector-field",
+          "states": [
+            "mixed",
+            "locked",
+            "unavailable",
+            "invalid",
+            "pending",
+            "read-only",
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "inspector",
+        "editing",
+        "forms"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/inspector-field/0.2.0.json",
+      "availability": "released",
+      "version": "0.2.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/inspector-field-checkbox.tsx",
+        "@ui/inspector-field-icons.tsx",
+        "@ui/inspector-field-lock.tsx",
+        "@ui/inspector-field-parts.tsx",
+        "@ui/inspector-field-root.tsx",
+        "@ui/inspector-field-segments.tsx",
+        "@ui/inspector-field-select.tsx",
+        "@ui/inspector-field-state.tsx",
+        "@ui/inspector-field-text.tsx",
+        "@ui/inspector-field-toggle.tsx",
+        "@ui/inspector-field.tsx",
+        "@ui/inspector-field.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/inspector-field/0.2.0.json",
+      "historyUrl": "https://uicoolkit.com/r/inspector-field/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/inspector-field/0.2.0.md",
+      "documentationFile": "@ui/inspector-field.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/inspector-field",
+      "previewUrl": "https://uicoolkit.com/components/inspector-field"
+    },
+    {
+      "slug": "layers-panel",
+      "title": "Layers Panel",
+      "summary": "A design tool's layer tree: nested frames with search, selection, reorder and toggles.",
+      "category": "blocks",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "layers-panel",
+          "states": [
+            "empty",
+            "error",
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "selection",
+        "tree",
+        "reorder"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/layers-panel/0.2.0.json",
+      "availability": "released",
+      "version": "0.2.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/layers-panel-children.tsx",
+        "@ui/layers-panel-root.tsx",
+        "@ui/layers-panel-row.tsx",
+        "@ui/layers-panel-state.tsx",
+        "@ui/layers-panel-tree.tsx",
+        "@ui/layers-panel.tsx",
+        "@ui/layers-panel.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0"
+      ],
+      "registryDependencies": [
+        "https://uicoolkit.com/r/context-menu/0.1.2.json",
+        "https://uicoolkit.com/r/inline-edit/0.1.3.json"
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/layers-panel/0.2.0.json",
+      "historyUrl": "https://uicoolkit.com/r/layers-panel/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/layers-panel/0.2.0.md",
+      "documentationFile": "@ui/layers-panel.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/layers-panel",
+      "previewUrl": "https://uicoolkit.com/components/layers-panel"
+    },
+    {
+      "slug": "like-burst",
+      "title": "Like Burst",
+      "summary": "A like or favorite toggle with an optional rolling count.",
+      "category": "components",
+      "topic": "Feedback & Status",
+      "variants": [],
+      "tags": [
+        "buttons",
+        "toggle",
+        "social"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/like-burst/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/like-burst.tsx",
+        "@ui/like-burst.md"
+      ],
+      "dependencies": [
+        "lucide-react@1.61.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/like-burst/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/like-burst/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/like-burst/0.1.0.md",
+      "documentationFile": "@ui/like-burst.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/like-burst",
+      "previewUrl": "https://uicoolkit.com/components/like-burst"
+    },
+    {
+      "slug": "motion-inspector",
+      "title": "Motion Inspector",
+      "summary": "Edit how a selected item animates, as an easing curve or a spring.",
+      "category": "blocks",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "motion-inspector",
+          "states": [
+            "empty",
+            "mixed",
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "inspector",
+        "selection",
+        "editing"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/motion-inspector/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/motion-inspector-editors.tsx",
+        "@ui/motion-inspector-math.ts",
+        "@ui/motion-inspector-parts.tsx",
+        "@ui/motion-inspector-root.tsx",
+        "@ui/motion-inspector-state.tsx",
+        "@ui/motion-inspector.tsx",
+        "@ui/motion-inspector.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0"
+      ],
+      "registryDependencies": [
+        "https://uicoolkit.com/r/easing-curve-editor/0.1.0.json",
+        "https://uicoolkit.com/r/inspector-field/0.2.0.json",
+        "https://uicoolkit.com/r/number-field/0.2.0.json"
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/motion-inspector/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/motion-inspector/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/motion-inspector/0.1.0.md",
+      "documentationFile": "@ui/motion-inspector.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/motion-inspector",
+      "previewUrl": "https://uicoolkit.com/components/motion-inspector"
+    },
+    {
+      "slug": "notification-stack",
+      "title": "Notification Stack",
+      "summary": "A layered deck of notifications that fans out into a spaced list.",
+      "category": "blocks",
+      "topic": "Feedback & Status",
+      "variants": [],
+      "tags": [
+        "feedback",
+        "toast",
+        "notifications"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/notification-stack/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/notification-card.tsx",
+        "@ui/notification-layout.ts",
+        "@ui/notification-stack.tsx",
+        "@ui/notification-timer.tsx",
+        "@ui/notification-stack.md"
+      ],
+      "dependencies": [
+        "lucide-react@1.61.0",
+        "motion@14.6.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/notification-stack/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/notification-stack/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/notification-stack/0.1.0.md",
+      "documentationFile": "@ui/notification-stack.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/notification-stack",
+      "previewUrl": "https://uicoolkit.com/components/notification-stack"
+    },
+    {
+      "slug": "number-field",
+      "title": "Number Field",
+      "summary": "Type, step or drag a number, as an input or a slider.",
+      "category": "components",
+      "topic": "General UI",
+      "variants": [
+        {
+          "id": "input",
+          "label": "Input",
+          "previewSlug": "number-field",
+          "states": [
+            "mixed",
+            "invalid",
+            "disabled",
+            "read-only"
+          ]
+        },
+        {
+          "id": "slider",
+          "label": "Slider",
+          "previewSlug": "number-field-slider",
+          "states": [
+            "mixed",
+            "invalid",
+            "disabled",
+            "read-only"
+          ]
+        }
+      ],
+      "tags": [
+        "forms",
+        "editing",
+        "inspector"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/number-field/0.2.0.json",
+      "availability": "released",
+      "version": "0.2.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/number-field-input.tsx",
+        "@ui/number-field-keyword.tsx",
+        "@ui/number-field-root.tsx",
+        "@ui/number-field-scrub.tsx",
+        "@ui/number-field-slider-parts.tsx",
+        "@ui/number-field-slider.tsx",
+        "@ui/number-field-state.tsx",
+        "@ui/number-field-stepper.tsx",
+        "@ui/number-field-value.tsx",
+        "@ui/number-field.tsx",
+        "@ui/number-field.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/number-field/0.2.0.json",
+      "historyUrl": "https://uicoolkit.com/r/number-field/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/number-field/0.2.0.md",
+      "documentationFile": "@ui/number-field.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/number-field",
+      "previewUrl": "https://uicoolkit.com/components/number-field"
+    },
+    {
+      "slug": "number-ticker",
+      "title": "Number Ticker",
+      "summary": "Digits that roll into place as a number changes.",
+      "category": "components",
+      "topic": "General UI",
+      "variants": [],
+      "tags": [
+        "text",
+        "numbers",
+        "stats"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/number-ticker/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/number-ticker.tsx",
+        "@ui/number-ticker.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/number-ticker/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/number-ticker/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/number-ticker/0.1.0.md",
+      "documentationFile": "@ui/number-ticker.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/number-ticker",
+      "previewUrl": "https://uicoolkit.com/components/number-ticker"
+    },
+    {
+      "slug": "onboarding-steps",
+      "title": "Onboarding Steps",
+      "summary": "Set up a workspace with an optional teammate invitation.",
+      "category": "flows",
+      "topic": "Productivity",
+      "variants": [],
+      "tags": [
+        "onboarding",
+        "stepper",
+        "forms"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/onboarding-steps/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/onboarding-steps.tsx",
+        "@ui/onboarding-steps.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/onboarding-steps/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/onboarding-steps/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/onboarding-steps/0.1.0.md",
+      "documentationFile": "@ui/onboarding-steps.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/onboarding-steps",
+      "previewUrl": "https://uicoolkit.com/components/onboarding-steps"
+    },
+    {
+      "slug": "orbit-field",
+      "title": "Orbit Field",
+      "summary": "Concentric rings of dots or icons orbit a customizable center.",
+      "category": "visuals",
+      "topic": "Visuals",
+      "variants": [],
+      "tags": [
+        "backgrounds",
+        "illustration",
+        "hero"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/orbit-field/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/orbit-field.tsx",
+        "@ui/use-orbit-motion.ts",
+        "@ui/orbit-field.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/orbit-field/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/orbit-field/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/orbit-field/0.1.0.md",
+      "documentationFile": "@ui/orbit-field.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/orbit-field",
+      "previewUrl": "https://uicoolkit.com/components/orbit-field"
+    },
+    {
+      "slug": "plan-switcher",
+      "title": "Plan Switcher",
+      "summary": "Compare plan features and monthly or yearly billing.",
+      "category": "blocks",
+      "topic": "Finance",
+      "variants": [],
+      "tags": [
+        "pricing",
+        "billing",
+        "toggle"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/plan-switcher/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/plan-switcher.tsx",
+        "@ui/plan-switcher.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [
+        "https://uicoolkit.com/r/number-ticker/0.1.0.json"
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/plan-switcher/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/plan-switcher/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/plan-switcher/0.1.0.md",
+      "documentationFile": "@ui/plan-switcher.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/plan-switcher",
+      "previewUrl": "https://uicoolkit.com/components/plan-switcher"
+    },
+    {
+      "slug": "playback-controls",
+      "title": "Playback Controls",
+      "summary": "Play, rewind, seek and set the volume of anything your app plays.",
+      "category": "components",
+      "topic": "General UI",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "playback-controls",
+          "states": [
+            "loading",
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "media",
+        "motion",
+        "keyboard"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/playback-controls/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/playback-controls-buttons.tsx",
+        "@ui/playback-controls-root.tsx",
+        "@ui/playback-controls-scrub.ts",
+        "@ui/playback-controls-seek.tsx",
+        "@ui/playback-controls-settings.tsx",
+        "@ui/playback-controls-state.tsx",
+        "@ui/playback-controls-time.ts",
+        "@ui/playback-controls-volume.tsx",
+        "@ui/playback-controls.tsx",
+        "@ui/playback-controls.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0"
+      ],
+      "registryDependencies": [
+        "https://uicoolkit.com/r/inspector-field/0.2.0.json"
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/playback-controls/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/playback-controls/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/playback-controls/0.1.0.md",
+      "documentationFile": "@ui/playback-controls.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/playback-controls",
+      "previewUrl": "https://uicoolkit.com/components/playback-controls"
+    },
+    {
+      "slug": "property-inspector",
+      "title": "Property Inspector",
+      "summary": "Grouped properties for whatever is selected on a design canvas.",
+      "category": "blocks",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "property-inspector",
+          "states": [
+            "locked",
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "inspector",
+        "selection",
+        "editing"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/property-inspector/0.2.0.json",
+      "availability": "released",
+      "version": "0.2.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/property-inspector-controls.tsx",
+        "@ui/property-inspector-fields.tsx",
+        "@ui/property-inspector-group.tsx",
+        "@ui/property-inspector-list.tsx",
+        "@ui/property-inspector-property.tsx",
+        "@ui/property-inspector-root.tsx",
+        "@ui/property-inspector-state.tsx",
+        "@ui/property-inspector.tsx",
+        "@ui/property-inspector.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0"
+      ],
+      "registryDependencies": [
+        "https://uicoolkit.com/r/alignment-control/0.2.0.json",
+        "https://uicoolkit.com/r/color-picker/0.2.0.json",
+        "https://uicoolkit.com/r/image-picker/0.2.0.json",
+        "https://uicoolkit.com/r/inspector-field/0.2.0.json",
+        "https://uicoolkit.com/r/number-field/0.2.0.json",
+        "https://uicoolkit.com/r/split-number-field/0.2.0.json"
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/property-inspector/0.2.0.json",
+      "historyUrl": "https://uicoolkit.com/r/property-inspector/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/property-inspector/0.2.0.md",
+      "documentationFile": "@ui/property-inspector.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/property-inspector",
+      "previewUrl": "https://uicoolkit.com/components/property-inspector"
+    },
+    {
+      "slug": "pulse-grid",
+      "title": "Pulse Grid",
+      "summary": "A field of dots that carries a double ripple across a surface.",
+      "category": "visuals",
+      "topic": "Visuals",
+      "variants": [],
+      "tags": [
+        "backgrounds",
+        "shader",
+        "hero",
+        "interactive"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/pulse-grid/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/pulse-grid-gl.ts",
+        "@ui/pulse-grid.tsx",
+        "@ui/pulse-renderer.ts",
+        "@ui/pulse-runtime.ts",
+        "@ui/pulse-shader.ts",
+        "@ui/pulse-grid.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/pulse-grid/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/pulse-grid/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/pulse-grid/0.1.0.md",
+      "documentationFile": "@ui/pulse-grid.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/pulse-grid",
+      "previewUrl": "https://uicoolkit.com/components/pulse-grid"
+    },
+    {
+      "slug": "resizable-panels",
+      "title": "Resizable Panels",
+      "summary": "Panels with exact pixel sizes, limits, keyboard resizing and Escape to cancel a drag.",
+      "category": "components",
+      "topic": "General UI",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "resizable-panels",
+          "states": [
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "layout",
+        "keyboard"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/resizable-panels/0.1.1.json",
+      "availability": "released",
+      "version": "0.1.1",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/resizable-panels-handle.tsx",
+        "@ui/resizable-panels-root.tsx",
+        "@ui/resizable-panels-state.tsx",
+        "@ui/resizable-panels.tsx",
+        "@ui/resizable-panels.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/resizable-panels/0.1.1.json",
+      "historyUrl": "https://uicoolkit.com/r/resizable-panels/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/resizable-panels/0.1.1.md",
+      "documentationFile": "@ui/resizable-panels.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/resizable-panels",
+      "previewUrl": "https://uicoolkit.com/components/resizable-panels"
+    },
+    {
+      "slug": "resize-handles",
+      "title": "Resize Handles",
+      "summary": "Handles on a selected object that report live sizes and commit once per resize.",
+      "category": "components",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "resize-handles",
+          "states": [
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "editing",
+        "selection",
+        "keyboard"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/resize-handles/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/resize-handles-math.ts",
+        "@ui/resize-handles-parts.tsx",
+        "@ui/resize-handles-root.tsx",
+        "@ui/resize-handles-state.tsx",
+        "@ui/resize-handles.tsx",
+        "@ui/resize-handles.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/resize-handles/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/resize-handles/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/resize-handles/0.1.0.md",
+      "documentationFile": "@ui/resize-handles.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/resize-handles",
+      "previewUrl": "https://uicoolkit.com/components/resize-handles"
+    },
+    {
+      "slug": "screen-frame",
+      "title": "Screen Frame",
+      "summary": "One app screen on a design canvas: name, status, preview and actions.",
+      "category": "components",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "screen-frame",
+          "states": [
+            "selected",
+            "loading",
+            "error",
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "selection",
+        "rename",
+        "inspector"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/screen-frame/0.1.2.json",
+      "availability": "released",
+      "version": "0.1.2",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/screen-frame-header.tsx",
+        "@ui/screen-frame-preview.tsx",
+        "@ui/screen-frame-root.tsx",
+        "@ui/screen-frame-state.tsx",
+        "@ui/screen-frame-status.tsx",
+        "@ui/screen-frame.tsx",
+        "@ui/screen-frame.md"
+      ],
+      "dependencies": [
+        "@base-ui/react@1.9.0"
+      ],
+      "registryDependencies": [
+        "https://uicoolkit.com/r/context-menu/0.1.2.json",
+        "https://uicoolkit.com/r/inline-edit/0.1.3.json"
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/screen-frame/0.1.2.json",
+      "historyUrl": "https://uicoolkit.com/r/screen-frame/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/screen-frame/0.1.2.md",
+      "documentationFile": "@ui/screen-frame.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/screen-frame",
+      "previewUrl": "https://uicoolkit.com/components/screen-frame"
+    },
+    {
+      "slug": "sortable-list",
+      "title": "Sortable List",
+      "summary": "Reorder your app's items by dragging or with move buttons, and recover when a save fails.",
+      "category": "components",
+      "topic": "General UI",
+      "variants": [],
+      "tags": [
+        "lists",
+        "reorder",
+        "keyboard"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/sortable-list/0.1.3.json",
+      "availability": "released",
+      "version": "0.1.3",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/sortable-list-content.tsx",
+        "@ui/sortable-list-controls.tsx",
+        "@ui/sortable-list-retry.tsx",
+        "@ui/sortable-list-root.tsx",
+        "@ui/sortable-list-state.tsx",
+        "@ui/sortable-list.tsx",
+        "@ui/sortable-list.md"
+      ],
+      "dependencies": [
+        "motion@14.6.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/sortable-list/0.1.3.json",
+      "historyUrl": "https://uicoolkit.com/r/sortable-list/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/sortable-list/0.1.3.md",
+      "documentationFile": "@ui/sortable-list.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/sortable-list",
+      "previewUrl": "https://uicoolkit.com/components/sortable-list"
+    },
+    {
+      "slug": "split-number-field",
+      "title": "Split Number Field",
+      "summary": "One number that splits into linked sides or corners, such as padding or radius.",
+      "category": "components",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "split-number-field",
+          "states": [
+            "mixed",
+            "disabled",
+            "read-only"
+          ]
+        }
+      ],
+      "tags": [
+        "editing",
+        "layout",
+        "inspector"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/split-number-field/0.2.0.json",
+      "availability": "released",
+      "version": "0.2.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/split-number-field-presets.tsx",
+        "@ui/split-number-field-root.tsx",
+        "@ui/split-number-field-state.tsx",
+        "@ui/split-number-field.tsx",
+        "@ui/split-number-field.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [
+        "https://uicoolkit.com/r/number-field/0.2.0.json"
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/split-number-field/0.2.0.json",
+      "historyUrl": "https://uicoolkit.com/r/split-number-field/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/split-number-field/0.2.0.md",
+      "documentationFile": "@ui/split-number-field.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/split-number-field",
+      "previewUrl": "https://uicoolkit.com/components/split-number-field"
+    },
+    {
+      "slug": "stateful-button",
+      "title": "Stateful Button",
+      "summary": "A button that follows an action through loading, confirmation, and retry.",
+      "category": "components",
+      "topic": "General UI",
+      "variants": [],
+      "tags": [
+        "buttons",
+        "feedback",
+        "forms"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/stateful-button/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/stateful-button.tsx",
+        "@ui/stateful-button.md"
+      ],
+      "dependencies": [
+        "motion@14.6.0",
+        "lucide-react@1.61.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/stateful-button/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/stateful-button/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/stateful-button/0.1.0.md",
+      "documentationFile": "@ui/stateful-button.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/stateful-button",
+      "previewUrl": "https://uicoolkit.com/components/stateful-button"
+    },
+    {
+      "slug": "upload-dropzone",
+      "title": "Upload Dropzone",
+      "summary": "Select or drop files and track each upload through completion or retry.",
+      "category": "blocks",
+      "topic": "Media & Content",
+      "variants": [],
+      "tags": [
+        "forms",
+        "upload",
+        "feedback"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/upload-dropzone/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/upload-dropzone.tsx",
+        "@ui/upload-queue.ts",
+        "@ui/upload-row.tsx",
+        "@ui/upload-dropzone.md"
+      ],
+      "dependencies": [
+        "lucide-react@1.61.0"
+      ],
+      "registryDependencies": [],
+      "manifestUrl": "https://uicoolkit.com/r/upload-dropzone/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/upload-dropzone/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/upload-dropzone/0.1.0.md",
+      "documentationFile": "@ui/upload-dropzone.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/upload-dropzone",
+      "previewUrl": "https://uicoolkit.com/components/upload-dropzone"
+    },
+    {
+      "slug": "version-comparison",
+      "title": "Version Comparison",
+      "summary": "Pick any two design versions, compare them and choose one.",
+      "category": "blocks",
+      "topic": "Design Tools",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "version-comparison",
+          "states": [
+            "empty",
+            "loading",
+            "error",
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "inspector",
+        "selection",
+        "editing"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/version-comparison/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/version-comparison-divider.tsx",
+        "@ui/version-comparison-label.tsx",
+        "@ui/version-comparison-root.tsx",
+        "@ui/version-comparison-stage.tsx",
+        "@ui/version-comparison-state.tsx",
+        "@ui/version-comparison-toolbar.tsx",
+        "@ui/version-comparison.tsx",
+        "@ui/version-comparison.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [
+        "https://uicoolkit.com/r/context-menu/0.1.2.json",
+        "https://uicoolkit.com/r/inline-edit/0.1.3.json",
+        "https://uicoolkit.com/r/inspector-field/0.2.0.json",
+        "https://uicoolkit.com/r/number-field/0.2.0.json"
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/version-comparison/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/version-comparison/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/version-comparison/0.1.0.md",
+      "documentationFile": "@ui/version-comparison.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/version-comparison",
+      "previewUrl": "https://uicoolkit.com/components/version-comparison"
+    },
+    {
+      "slug": "xy-pad",
+      "title": "XY Pad",
+      "summary": "Set two numbers with one draggable point, with a field for each axis.",
+      "category": "components",
+      "topic": "General UI",
+      "variants": [
+        {
+          "id": "default",
+          "label": "Default",
+          "previewSlug": "xy-pad",
+          "states": [
+            "mixed",
+            "disabled"
+          ]
+        }
+      ],
+      "tags": [
+        "editing",
+        "inspector",
+        "keyboard"
+      ],
+      "access": "free",
+      "installCommand": "npx shadcn@latest add https://uicoolkit.com/r/xy-pad/0.1.0.json",
+      "availability": "released",
+      "version": "0.1.0",
+      "status": "experimental",
+      "license": "MIT",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "compatibilityReportUrl": "https://uicoolkit.com/compatibility.json",
+      "files": [
+        "@ui/xy-pad-drag.ts",
+        "@ui/xy-pad-fields.tsx",
+        "@ui/xy-pad-math.ts",
+        "@ui/xy-pad-parts.tsx",
+        "@ui/xy-pad-root.tsx",
+        "@ui/xy-pad-state.tsx",
+        "@ui/xy-pad.tsx",
+        "@ui/xy-pad.md"
+      ],
+      "dependencies": [],
+      "registryDependencies": [
+        "https://uicoolkit.com/r/number-field/0.2.0.json"
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/xy-pad/0.1.0.json",
+      "historyUrl": "https://uicoolkit.com/r/xy-pad/history.json",
+      "documentationUrl": "https://uicoolkit.com/components/xy-pad/0.1.0.md",
+      "documentationFile": "@ui/xy-pad.md",
+      "documentationPageUrl": "https://uicoolkit.com/components/xy-pad",
+      "previewUrl": "https://uicoolkit.com/components/xy-pad"
+    }
+  ]
+}

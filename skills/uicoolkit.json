@@ -1,0 +1,11 @@
+{
+  "name": "uicoolkit",
+  "version": "0.1.3",
+  "license": "MIT",
+  "downloadUrl": "https://uicoolkit.com/skills/uicoolkit.tar.gz",
+  "sha256": "7288d57b439d30a2facf845eae8e173163630d3aab8b34cd94029cee4dc159ec",
+  "files": [
+    "uicoolkit/SKILL.md",
+    "uicoolkit/LICENSE"
+  ]
+}

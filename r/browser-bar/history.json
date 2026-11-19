@@ -1,0 +1,28 @@
+{
+  "name": "browser-bar",
+  "latest": "0.1.1",
+  "releases": [
+    {
+      "version": "0.1.1",
+      "access": "free",
+      "license": "MIT",
+      "status": "experimental",
+      "releasedAt": "2026-11-19",
+      "changelog": "Give the address field a larger touch target, native caret placement and the URL keyboard with a Go action.",
+      "change": "fix",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "notices": [
+        "MIT UICoolKit source. Base UI, Motion and host utilities retain their respective package licenses."
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/browser-bar/0.1.1.json",
+      "historyUrl": "https://uicoolkit.com/r/browser-bar/history.json",
+      "documentationFile": "@ui/browser-bar.md",
+      "documentationUrl": "https://uicoolkit.com/components/browser-bar/0.1.1.md"
+    }
+  ]
+}

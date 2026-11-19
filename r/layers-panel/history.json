@@ -1,0 +1,29 @@
+{
+  "name": "layers-panel",
+  "latest": "0.2.0",
+  "releases": [
+    {
+      "version": "0.2.0",
+      "access": "free",
+      "license": "MIT",
+      "status": "experimental",
+      "releasedAt": "2026-11-19",
+      "changelog": "Support flat lists and on-demand groups with loading, failure, and retry. Remove the header's automatic layer count.",
+      "change": "breaking",
+      "compatibility": {
+        "react": "^18.3.1 || ^19.0.0",
+        "next": "^15.5.0 || ^16.4.6",
+        "vite": "^8.3.5",
+        "tailwind": "^4.0.0"
+      },
+      "migration": "Remove messages.count from message overrides. Replace useLayersPanel().total with a count derived from the app-owned layer tree. To keep a count in the header, render it as a LayersPanelHeader child.",
+      "notices": [
+        "MIT UICoolKit source. Base UI, Motion and host utilities retain their respective package licenses."
+      ],
+      "manifestUrl": "https://uicoolkit.com/r/layers-panel/0.2.0.json",
+      "historyUrl": "https://uicoolkit.com/r/layers-panel/history.json",
+      "documentationFile": "@ui/layers-panel.md",
+      "documentationUrl": "https://uicoolkit.com/components/layers-panel/0.2.0.md"
+    }
+  ]
+}
