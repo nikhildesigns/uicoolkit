@@ -1,5 +1,7 @@
 # UICoolKit
 
+![UICoolKit’s “Ship cool products faster” banner over a grid of component previews](https://uicoolkit.com/og-image.png)
+
 MIT-licensed React components, blocks, visuals, and flows. Install with shadcn or set up your coding agent with one prompt.
 
 [Website](https://uicoolkit.com) · [Contributing](./CONTRIBUTING.md) · [License](./LICENSE)
